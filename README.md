@@ -11,6 +11,8 @@ To reload :
 
 ## Haskell Basics
 
+```haskell
+
 Operators :
 
 * equality :
@@ -78,10 +80,11 @@ False
 
 > read "('a', False)" :: (Char, Bool)
 ('a',False)
-
+```
 
 Numeric :
 
+```haskell
 +
 -
 * 
@@ -126,7 +129,7 @@ recip -- 1/x
 
 > recip 4
 0.25 -- 1/4
-
+```
 
 Conditional IF/Else :
 (todo)
@@ -136,6 +139,7 @@ Guard :
 
 ## Haskell Types 
 
+```haskell
 Bool
 Char
 String
@@ -154,9 +158,11 @@ Double : double precision floating-point number
 - List of one element are called singleton list
 - [[]] and [] are different list
 
+```
 
 ## Haskell Functions
 
+```haskell
 isEven :: Int -> Bool
 
 add :: (Int, Int) -> Int
@@ -208,6 +214,8 @@ Difference between simple and carried is on declaration :
 multiCarried :: Int -> (Int -> (Int -> Int))
 
 multiCarried :: Int -> (Int -> (Int -> Int)) ===> multiCarried :: Int -> Int -> Int -> Int
+
+```
 
 ## Haskell Array / List
 
