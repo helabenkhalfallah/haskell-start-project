@@ -1,5 +1,5 @@
 # haskell-start-project
-A start project to taste Haskell.
+A start project to tast Haskell.
 
 I will try to make an analogy with Javascript (ES6+)
 
